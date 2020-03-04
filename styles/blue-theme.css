@@ -1,0 +1,40 @@
+.navbar-header .navbar-brand span,
+footer .copy-right span,
+.carousel-caption,
+.about .h1 span,
+footer h3.h1,
+.testimonials .carousel-inner .item span,
+.scrolled-top button,
+.about-content .ourteam h3.h1,
+.our-points i,
+.over-lay h3.h1,
+.faq-section h3.h1,
+.faq-questions a {
+    color: #1b95e0
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.option-box i.fa-cog,
+.dropdown-menu .divider,
+.option-box .color-option ul li:nth-of-type(4),
+.carousel-indicators .active,
+.hvr-overline-from-center:before {
+    background-color: #1b95e0;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-top: 4px solid #1b95e0;
+}
+
+.option-box,
+.carousel-indicators li {
+    border: 4px solid #1b95e0;
+}
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px #1b95e0;
+}

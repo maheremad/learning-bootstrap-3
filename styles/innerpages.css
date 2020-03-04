@@ -1,0 +1,64 @@
+/* Start About Section */
+
+.breadcrumb-main {
+    background-color: #f5f5f5;
+}
+
+.breadcrumb-section .breadcrumb {
+    margin: 0;
+    padding: 10px 0
+}
+
+.about-content {
+    padding-top: 50px;
+}
+
+.about-content .ourteam {
+    padding-bottom: 30px;
+}
+
+.about-content .h1 {
+    font-size: 60px;
+    margin-top: 0
+}
+
+.about-content hr {
+    width: 60%
+}
+
+.about-content img.center-block {
+    margin-bottom: 40px
+}
+
+.about-content .over-lay {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-content .over-lay input {
+    background-color: #504e4e;
+    border-color: #504e4e;
+}
+
+.about-content .over-lay input:hover {
+    background-color: #252424;
+    border-color: #252424;
+}
+
+
+/* End About Section */
+
+
+/* Start FAQ Section */
+
+.faq-questions hr {
+    width: 60%
+}
+
+.faq-questions a {
+    text-decoration: none
+}
+
+
+/* End FAQ Section */

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html id="home" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- IE Compatibility Meta -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" href="images/htmlpage/tab-icon/jquery-icon.png">
+    <link rel="stylesheet" href="styles/all.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/rtl.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/innerpages.css">
+    <link rel="stylesheet" href="styles/default-theme.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cherry+Swash|Lobster+Two&display=swap">
+    <!--[if lt IE 9]>
+    <script src="scripts/html5shiv.min.js"></script>
+    <script src="respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Start Option Box -->
+
+    <section class="option-box none">
+        <div class="color-option">
+            <h3 class="h1">Color Option</h3>
+            <ul class="list-unstyled">
+                <li data-theme="styles/default-theme.css"></li>
+                <li data-theme="styles/green-theme.css"></li>
+                <li data-theme="styles/gold-theme.css"></li>
+                <li data-theme="styles/blue-theme.css"></li>
+                <li data-theme="styles/purple-theme.css"></li>
+                <li data-theme="styles/cheery-theme.css"></li>
+            </ul>
+        </div>
+        <i class="fas fa-cog fa-2x"></i>
+    </section>
+
+    <!-- End Option Box -->
+
+    <!-- Start Navbar -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#our-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Maher's <span>Show</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="our-nav">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Programming</a></li>
+                            <li><a href="#">Hosting</a></li>
+                            <li><a href="#">WordPress</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Special Service</a></li>
+                        </ul>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Start Breadcrumb -->
+
+
+    <section class="breadcrumb-section">
+        <div class="breadcrumb-main">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>FAQ</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Breadcrumb -->
+
+    <!-- Start Content Of The FAQ Section -->
+
+    <section class="faq-section text-center">
+        <div class="container">
+            <h3 class="h1">Frequently Asked Questions</h3>
+            <hr>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+    <section class="faq-questions">
+        <div class="container">
+            <div class="panel-group" id="accordion" roles="tablist" aria-multiselectable="true">
+                <!-- Start Question Num 1 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" roles="tab" id="heading-one">
+                        <h4 class="panel-title">
+                            <div class="row">
+                                <a id="selected" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                                    <p class="col-xs-11" style="margin: 0;">#1 How To Use Bootstrap?</p><i class="fas fa-arrow-right col-xs-1" style="position: absolute;
+                                    right: 42px;"></i>
+                                </a>
+                            </div>
+                        </h4>
+                    </div>
+                    <div id="collapse-one" class="panel-collapse collapse" roles="tabpanel" aria-labelledby="heading-one">
+                        <div class="panel-body lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit ullam ad perferendis consequatur quo dolore velit esse animi. Ipsum optio repellat asperiores in fuga?
+                        </div>
+                    </div>
+                </div>
+                <!-- End Question Num 1 -->
+
+                <!-- Start Question Num 2 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" roles="tab" id="heading-two">
+                        <h4 class="panel-title">
+                            <div class="row">
+                                <a id="selected" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="true" aria-controls="collapse-tow">
+                                    <p class="col-xs-11" style="margin: 0;">#1 How To Use Twitter?</p><i class="fas fa-arrow-right col-xs-1" style="position: absolute;
+                                    right: 42px;"></i>
+                                </a>
+                            </div>
+                        </h4>
+                    </div>
+                    <div id="collapse-two" class="panel-collapse collapse" roles="tabpanel" aria-labelledby="heading-two">
+                        <div class="panel-body lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nulla id ullam rem facilis facere ut sint repellat, ipsum beatae quibusdam laborum. Magni amet distinctio accusamus facere ab sequi reiciendis?
+                        </div>
+                    </div>
+                </div>
+                <!-- End Question Num 2 -->
+
+                <!-- Start Question Num 3 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" roles="tab" id="heading-three">
+                        <h4 class="panel-title">
+                            <div class="row">
+                                <a id="selected" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="true" aria-controls="collapse-three">
+                                    <p class="col-xs-11" style="margin: 0;">#1 How To Use Facebook?</p><i class="fas fa-arrow-right col-xs-1" style="position: absolute;
+                                    right: 42px;"></i>
+                                </a>
+                            </div>
+                        </h4>
+                    </div>
+                    <div id="collapse-three" class="panel-collapse collapse" roles="tabpanel" aria-labelledby="heading-three">
+                        <div class="panel-body lead">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo fuga ipsam sequi excepturi magni, maiores voluptatibus est eveniet, consequuntur blanditiis illo cupiditate labore laborum possimus harum sunt nam tenetur iure consectetur tempora iste, impedit
+                            incidunt!
+                        </div>
+                    </div>
+                </div>
+                <!-- End Question Num 3 -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- End Content Of The FAQ Section -->
+
+    <!-- Start Footer Section -->
+
+    <footer>
+        <div class="container">
+            <div class="row" style="padding-bottom: 50px">
+                <div class="col-lg-4 col-sm-6 wow bounceInUp" data-wow-duration="1.5s" data-wow-offset="100">
+                    <h3 class="h1">Sitemap</h3>
+                    <ul class="list-unstyled three-col">
+                        <li>Home</li>
+                        <li>Code</li>
+                        <li>Solutions</li>
+                        <li>About</li>
+                        <li>Design</li>
+                        <li>Sitemap</li>
+                        <li>Company</li>
+                        <li>Host</li>
+                        <li>Contact</li>
+                    </ul>
+                    <ul class="list-unstyled logo-list">
+                        <li><img class="img-responsive center-block" src="images/htmlpage/footer-images/fb.png" alt="Facebook">
+                        </li>
+                        <li><img class="img-responsive center-block" src="images/htmlpage/footer-images/twitter.png" alt="Twitter"></li>
+                        <li><img class="img-responsive center-block" src="images/htmlpage/footer-images/linkin.png" alt="Linkin">
+                        </li>
+                        </li>
+                        <li><img class="img-responsive center-block" src="images/htmlpage/footer-images/email.png" alt="Email">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6  wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" data-wow-offset="100">
+                    <h3 class="h1">Least Articles</h3>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/htmlpage/media-footer/programming.png" alt="Image 01">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Programming</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/htmlpage/media-footer/coding.png" alt="Image 02">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">coding</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/htmlpage/media-footer/Design.png" alt="Image 03">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-footer-work col-lg-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="1s" data-wow-offset="100">
+                    <h3 class="h1">Our Awesome Work</h3>
+                    <img class="img-thumbnail" src="images/htmlpage/our-work-footer/01.jpg" alt="Image 01" style="width: 150px;height: 100px">
+                    <img class="img-thumbnail" src="images/htmlpage/our-work-footer/02.jpg" alt="Image 02" style="width: 150px;height: 100px">
+                    <img class="img-thumbnail" src="images/htmlpage/our-work-footer/03.jpeg" alt="Image 03" style="width: 150px;height: 100px">
+                    <img class="img-thumbnail" src="images/htmlpage/our-work-footer/04.jpeg" alt="Image 04" style="width: 150px;height: 100px">
+                </div>
+
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="copyright text-center wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
+                <p class="lead">
+                    Cpoyright &copy; 2019 Your Template Name <span>Maher's Show.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <!-- Start Botton To Top Section -->
+
+    <section class="scrolled-top">
+        <button>
+            <i class="fas fa-chevron-up fa-2x"></i>
+        </button>
+    </section>
+
+    <!-- End Botton To Top Section -->
+
+
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/index.js"></script>
+
+</body>
+
+
+</html>
